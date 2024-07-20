@@ -1,0 +1,21 @@
+﻿ADO.NET
+
+.NET framework'un bir parcası olarak microsoft tarafından geliştirilmiş ve çeşitli veritabanlarına bağlanmak için kullanılan teknolojidir. 
+
+Ado.Net farklı veritabanlarına bağlanmak için çeşitli veri sağlayıcılar(providers) sunar. 
+
+Bu provider'lar arasında en yaygın olarak kullanılanlar sunlardır: 
+
+SQL Server:
+Sytem.Data.SqlClient namespace'i altında bulunan SqlClient veri sağlayıcısıdır. 
+
+OLEDB:
+System.Data.OleDb namespace'i altında OleDb veri sağlayıcısıdır. (Microsoft Access, Oracle )
+
+ADO.NET
+--Yapılandırılmış verilere erisim için kullanılan bir .NET teknolojisidir. 
+
+--iliskisel yapılara (microsoft sql)
+--xml data
+--diğer veri türleri
+

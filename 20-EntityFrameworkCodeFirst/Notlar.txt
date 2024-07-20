@@ -1,0 +1,53 @@
+﻿ENTITY FRAMEWORK - ORM (Object Relational Mapping)
+
+ORM temel olarak veritabanında yer alan tablo ve alanları nesne olarak kullanmamıza imkan veren bir yazılım mimarisidir.
+
+ORM iliskisel veritabanı ile nesneye yönelik programlama (oop) arasında bir köprü görevi görür. Bu köprü, db bilgilerimizi yönetmek için nesne modellerimizi kullandığımız bir yapıdır. 
+Kısaca veritabanına bizim nesnelerimizi bağlana ve bizim için veri alışverişini yapan Microsoft tarafından geliştirilmiş bir frameworktür.
+
+EF Ado.Net altyapısını kullanılır.
+
+EF ile 3 farklı yöntemde proje geliştirilebilir.
+
+Code First (Yeni Veritabanı , Kod Yazarak)
+Database First (DB First) (Var Olan DB'ye Bağlanma)
+Model First (Yeni Veritabanı, Visual Studio Üzerinde)
+
+Model First:
+Bu yöntem Vstudio üzerinde boş bir model dosyası(.edmx) eklenerek veritabanını bu model üzerinden tasarlayabilmemize olanak sağlar. 
+
+Database First:
+Bu yöntem önceden oluşturulmuş bir veritabanı olan projelerde, veritabanına bağlanarak ilgili classlarımızın EF aracılığı ile uygulama tarafında oluşturulmasını sağlar.
+
+Code First:
+Bu yöntem classlarımızı visual studio tarafında oluşturmaya başladığımız bir yöntemdir. Veritabanımız bu classlardan türetilir.
+
+
+Nuget Package Manager Console Üzerinden sırası ile aşağıdaki komutlar çalıştırılır.
+
+    // enable-migrations
+    // add-migration <isim verilecek>
+    // update-database
+
+ve bu aşamadan sonra entityler üzerinde yaptığımız her bir değişiklikten sonra tekrar;
+    // add-migration <isim verilecek>
+    // update-database
+
+    komutları çalıştırılır.
+
+    EF CORE Code First Uygulamak İçin Sırası ile: 
+
+    1-Yüklenecek Paketler
+    Install-Package Microsoft.EntityFrameworkCore
+    Install-Package Microsoft.EntityFrameworkCore.Tools
+    Install-Package Microsoft.EntityFrameworkCore.SqlServer
+    Install-Package Microsoft.EntityFrameworkCore.Design
+
+    2-Entitylerin Oluşturulması
+
+    3-Context Sınıfının Oluşturulması
+    ApplicationDBContext:DbContext
+
+    4-enable-migrations
+    5-add-migration <FirstInitialize>
+    6-update-database

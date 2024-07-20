@@ -1,0 +1,22 @@
+﻿OOP (Object Oriented Programming)
+
+C# nesne tabanlı bir programlama dilidir. 
+OOP, programlamada kullanılan yapıları nesneler üzerinden düşünmeyi ve bu nesneler arasındaki ilişkileri modellemeyi esas alır. 
+
+CLASS:Nesne oluşturmak için hazırlanmış olan bir plan yani bir taslaktır.
+
+NESNE(object): Sınıftan türetilmiş olan ve kendine özgü özellik ve eylemleri (metodları) olabilen yapılardır.
+
+ Neden OOP:
+1- Kodları tek sefer yazarak sürekli olarak kullanabilmemizi sağlar bu sayede kod maliyetini düşürür.
+2- Kod blokları ile ilgili hatalar aldığımızda tek bir yerden güncelleme yapabilmemizi sağlar.
+3- Bilgi gizliliği sağlanmasını yardımcı olur. 
+4- Belirli bir kodlama standartı getirmemizi sağlar.
+
+Constructor (Yapıcı Metod)
+Yapıcı metod sınıftan nesne türetilirken çalışır. Bu durumda nesne türetilirken istediğimiz özellikleri burada beliryelebiliriz.
+
+Polymorphism: (Çok bicimlilik)
+Base class ta bulunan bir metodun child classlarda override edilerek farklı bir içerikle kullanılmasıdır.
+base class: metod virtual olarak isaretlenir
+child class: override yazarak bir boşluk bırakılır.

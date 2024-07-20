@@ -1,0 +1,14 @@
+﻿Yeni bir proje oluşturulam.
+Northwind için CodeFirst Uygulayalım
+Customer
+Employee
+Order
+Order Details
+Categories
+Products
+Supplier
+
+Validation: fluent validation
+Ürün satışı yapabilecek bir form tasarımı yapalım.
+
+//Deadline : salı 19:30

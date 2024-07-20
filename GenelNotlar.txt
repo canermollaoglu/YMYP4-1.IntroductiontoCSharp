@@ -1,0 +1,40 @@
+OOP (Object Oriented Programming) - STANDART
+
+C# nesne tabanlý bir programlama dilidir.
+
+OOP, programlamada kullanýlan yapýlarý nesneler üzerinden düþünmeyi ve bu nesneler arasýndaki iliþkileri modellemeyi esas alýr. 
+
+CLASS: Nesne oluþturmak için hazýrlanmýþ bir plan yani bir taslaktýr. 
+
+NESNE: (obje): Sýnýftan türetilmiþ olan ve kendine özgü özellik (property) ve eylemleri (method) olabilen yapýlardýr. 
+
+INSTANCE:
+
+NEDEN OOP:
+1-Kodlarý tek sefer yazarak sürekli olarak kullanabilmemizi saðlar bu sayede kod maliyetini düþürür. 
+2-Kod bloklarý ile ilgili hatalar aldýðýmýzda tek bir yerden güncelleme yapabilmemizi saðlar. 
+3-Bilgi gizliliði saðlanmasýna yardýmcý olur.
+4-Belirli bir KODLAMA STANDARDI getirmemizi saðlar.
+
+CONSTRUCTOR (Yapýcý Metod)
+Yapýcý metod sýnýftan nesne türetilirken çalýþýr. Bu durumda nesne türetilirken istediðimiz özellikleri burada belirleyebiliriz.
+
+INHERITANCE (Kalýtým):
+
+POLYMORPHISM (Çok Biçimlilik)
+
+Base Class ta bulunan bir metodun child classlarda override edilerek farklý bir içerikle kullanýlmasýdýr.
+base class: metodu virtual olarak iþaretleriz.
+child class: override ederek eziyoruz. 
+
+INTERFACE (Arayüz)
+Bir sýnýfýn belirli davranýþlarý kazanmasýný saðlamak amacýyla kullanýlýr. Interface kullanarak bir sýnýfýn zorunlu olarak belirli metod ve propertyleri kullanmasý saðlanýr.
+
+--ÖZELLÝKLERÝ:
+-Metodlarýn imzalarý interface içiresinde bulunur. 
+public string Add();
+-Özellikler (property) interface içerisinde bulunabilir
+-Field kullanýlmaz.
+-Bir sýnýf birden fazla interface'ten türetilebilir.
+-Bir interface baþka bir interfaceten türetilebilir.
+-New Keywordu ile yapýlamazlar. 
