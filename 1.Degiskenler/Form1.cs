@@ -19,6 +19,7 @@ namespace _1.Degiskenler
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Test");
             /*
              Değişkenler (Variables)
             Bilgisayar belleğinde bazı değerleri tutmaya yarayan yapılardır.
